@@ -44,6 +44,6 @@ var page = document.getElementById("page");
 var newListItem = document.createElement("h2");
 // No. of <li> elements
 // Content
-// Update h2 using innerHTML (not textContent) because it contains markup
 newListItem.innerHTML = ("Count: " + count);
+// Update h2 using innerHTML (not textContent) because it contains markup
 page.insertBefore(newListItem, page.firstChild);
